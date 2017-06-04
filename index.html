@@ -17,6 +17,7 @@
                 var map = new google.maps.Map(document.getElementById("lokasi"), mapOptions)  ;
                 var marker = new google.maps.Marker({
                     position: LatLng,
+                    icon: "image/marker/png/Arrow_7.png",
                     map: map,
                     title: "<div style = 'height:50px;width:250px'><b>Lokasi Anda Disini:</b><br/>Latitude: " + p.coords.latitude + "<br/>Longitude: " + p.coords.longitude
                 });
